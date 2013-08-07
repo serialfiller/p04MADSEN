@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+#container {
+	background-color: #FFF;
+	height: 800px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#header {
+	background-color: #000;
+	height: 150px;
+	width: 980px;
+}
+#logo {
+	background-color: #000;
+	height: 55px;
+	width: 155px;
+	float: left;
+	margin-top: 5px;
+	margin-left: 30px;
+	padding-right: 0px;
+	padding-left: 15px;
+	font-family: 'Rock Salt', cursive;
+	font-size: 26px;
+	color: #008B8B;
+	padding-top: 15px;
+}
+#navbar {
+	background-color: #000;
+	height: 75px;
+	width: 90px;
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #999;
+	float: left;
+	padding-left: 30px;
+	margin-top: 50px;
+}
+#laurenmadsen {
+	height: 70px;
+	width: 540px;
+	margin-top: 20px;
+	font-size: 50px;
+	color: #000;
+	padding-left: 60px;
+	float: left;
+	font-family: 'Rock Salt', cursive;
+	text-align: left;
+}
+#navbar a {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #999;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 16px;
+}
+#navbar a:hover {
+	color: #fff;
+}
+#socialmedia {
+	background-color: #000;
+	float: right;
+	height: 30px;
+	width: 120px;
+	margin-top: 100px;
+	margin-right: 50px;
+}
+#socialmedia img {
+	margin-right: 5px;
+}
+#sidebar {
+	background-color: #FFF;
+	float: left;
+	height: 520px;
+	width: 150px;
+	padding-left: 40px;
+	padding-right: 15px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+	padding-right: 10px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+#sidebar h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: none;
+	margin-bottom: 10px;
+}
+#sidebar h2 img {
+	margin-right: 10px;
+	padding-bottom: 57px;
+}
+#sidebar p {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: italic;
+	color: #333;
+	line-height: 18px;
+}
+#content {
+	background-color: #FFF;
+	float: left;
+	height: 600px;
+	width: 750px;
+}
+#contentheader {
+	background-color: #FFF;
+	height: 140px;
+	width: 700px;
+	padding-left: 40px;
+}
+#copyright {
+	background-color: #000;
+	clear: both;
+	height: 20px;
+	width: 980px;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: italic;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+
+#column1 {
+	background-color: #FFF;
+	float: left;
+	height: 380px;
+	width: 310px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+}
+
+#column2 {
+	background-color: #FFF;
+	float: left;
+	height: 400px;
+	width: 310px;
+	margin-left: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+h1 {
+	font-family: 'Old Standard TT', serif;
+	font-style: italic;
+	font-size: 80px;
+	text-align: right;
+	color: #000;
+}
+h3 {
+	margin-top: 30px;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #999;
+	padding-left: 20px;
+	font-size: 24px;
+}
+.white {
+	color:#F00;
+}
+
+#formlabels {
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.example {
+	background-color:#999;
+	height:150px;
+	width:300px;
+}
+
+
+#content a {
+	color: #008B8B;
+	text-decoration: none;
+}
+
+#content a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+#sidebar a {
+	color: #008B8B;
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+#content h2 {font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+	
+}
+/*START: Styling the Mobile Version*/
+
+@media only screen and (max-width: 480px) {
+	
+#container {
+	width: 400px;   
+}
+
+#copyright {
+	width: 400px;}
+        
+#content {
+	width: 400px;}
+        
+#header {
+	width: 400px;}
+        
+#contentheader {
+	width: 400px;}
+            
+        
+#laurenmadsen {
+	font-size: 20px;
+}
+
+#sidebar {
+	width:350px;
+	height: 220px;
+}
+h1 {
+text-align: left;
+}
+
+#column2{
+	clear:both;
+}
+#container{
+	height: 1200px;
+}
+#content {
+	height: 960px;
+}
+
+#sidebar h2 img{
+	padding-bottom: 10px;
+}
+
+}
+
+/*END: Styling the Mobile Version*/
